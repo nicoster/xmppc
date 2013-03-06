@@ -3,9 +3,14 @@ xmppc
 
 A basic console XMPP client based on gloox
 
-How to build
+how to build on OS X
 =====
-OSX: 
-install boost, gloox via port
+install boost, gloox via MacPorts
 
-build using: clang++ -I /opt/local/include/ -L /opt/local/lib -lgloox -lboost_program_options-mt main.cpp -o xmppc
+``clang++ -I /opt/local/include/ -L /opt/local/lib -lgloox /opt/local/lib/libboost_program_options-mt.a main.cpp -o xmppc``
+
+how to run on OS X
+=====
+install gloox via MacPorts
+
+``./xmppc``
